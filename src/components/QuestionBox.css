@@ -1,0 +1,77 @@
+.container {
+    background-color: rgb(140, 125, 103);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    margin-left: 25vw;
+    display: flex;
+}
+.nav button {
+    height: 40px;
+    width: 70px;
+    border-radius: 30%;
+    border: 2px solid blue;
+    margin-left: 27vw;
+    margin-top: 2vh;
+    background-color: black;
+    color: white;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw;
+    margin-top: 3vh;
+    background-color: grey;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 20%;
+    border: 3px solid black;
+}
+.box p{
+    font-size: 25px;
+    color: blue;
+}
+.option-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20vh;
+    width: 10vw;
+    justify-content: center;
+    margin-left: -9vw;
+    
+}
+.options button{
+    height: 40px;
+    width: 20vw;
+    margin-top: 20px;
+    background-color: lightgray;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.options button:hover{
+    background-color: bisque;
+}
+.buttons{
+    display: flex;
+    margin-top: 6vh;
+    margin-left: -5vh;
+}
+.buttons button{
+    margin-left: 4vw;
+    height: 4vh;
+    width: 6vw;
+    text-align: center;
+    align-items: center;
+    background: red;
+    color: white;
+    border-radius: 20px;
+}
+.buttons button:hover{
+    background-color: rgba(246, 84, 84, 0.351);
+}
